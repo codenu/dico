@@ -36,7 +36,7 @@ class HTTPRequestBase(ABC):
         This module isn't intended to be directly used. It is recommended to request via APIClient.
     """
 
-    BASE_URL: str = "https://discord.com/api/v10"
+    BASE_URL: str = "https://discord.com/api/v9"
 
     @abstractmethod
     def request(
